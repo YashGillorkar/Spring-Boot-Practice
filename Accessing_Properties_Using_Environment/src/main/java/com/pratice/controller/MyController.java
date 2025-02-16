@@ -16,4 +16,10 @@ public class MyController {
         myApplicationPropertiesInfo.printAppInfo();
         return "App Info Printed to Console";
     }
+
+
+    public String example() {
+        myApplicationPropertiesInfo.printAppInfo();
+        return "App Info Printed to Console";
+    }
 }
