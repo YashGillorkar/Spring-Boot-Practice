@@ -16,4 +16,11 @@ public class MyController {
         myApplicationPropertiesInfo.printAppInfo();
         return "App Info Printed to Console";
     }
+
+
+    @GetMapping("/example")
+    public String example() {
+        myApplicationPropertiesInfo.printAppInfo();
+        return "App Info Printed to Console";
+    }
 }
